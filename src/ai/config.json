@@ -1,0 +1,18 @@
+{
+  "model": {
+    "name": "phi:latest",
+    "prompt_file": "prompt.txt",
+    "temperature": 0.0,
+    "top_p": 0.1
+  },
+  "email_processing": {
+    "body_char_limit": 2500
+  },
+  "paths": {
+    "phishing_dataset": "../data/public_phishing"
+  },
+  "debug": {
+    "verbose": true,
+    "stream_output": true
+  }
+}
